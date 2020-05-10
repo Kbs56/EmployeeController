@@ -13,7 +13,7 @@ public class Helper {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url = "jdbc:mysql://localhost:3306/employer_track?useLegacyDatetimeCode=false&serverTimezone=UTC";
 
-        return DriverManager.getConnection(url, "root", "KennySheldon3");
+        return DriverManager.getConnection(url, "root", "******");
     }
 
     public static ObservableList<Employee> getAllRecords() throws Exception {
