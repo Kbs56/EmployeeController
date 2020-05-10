@@ -1,0 +1,77 @@
+#menuButtons {
+    -fx-background-color: "#007aff";
+    -fx-font-size: 1.64em;
+    -fx-background-radius: 20;
+    -fx-padding: 10 20 10 20;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 );
+    -fx-effect: innershadow( gaussian , rgba(0,0,0,0.7) , 20,0,0,0 );
+}
+
+#menuButtons:hover {
+    -fx-background-color: "#fff";
+    -fx-text-fill: "#007aff";
+    -fx-border-radius: 20;
+}
+
+#sortButton {
+      -fx-background-color: "#007aff";
+        -fx-font-size: 1.64em;
+        -fx-background-radius: 20;
+        -fx-padding: 10 20 10 20;
+        -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 );
+        -fx-effect: innershadow( gaussian , rgba(0,0,0,0.7) , 20,0,0,0 );
+}
+
+#sortButton:hover {
+    -fx-background-color: "#fff";
+      -fx-text-fill: "#007aff";
+      -fx-border-radius: 20;
+}
+
+#addButtons {
+    -fx-background-color: "#007aff";
+    -fx-font-size: 1.64em;
+    -fx-background-radius: 20;
+    -fx-padding: 10 20 10 20;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 );
+    -fx-effect: innershadow( gaussian , rgba(0,0,0,0.7) , 20,0,0,0 );
+}
+
+#addButtons:hover {
+    -fx-background-color: "#fff";
+    -fx-text-fill: "#007aff";
+    -fx-border-radius: 20;
+}
+
+#tableView {
+    -fx-selection-bar:"007aff";
+    -fx-font-size: 17.0;
+}
+
+.table-view .scroll-bar * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+}
+
+#leftBox .label {
+    -fx-font-size: 17.0;
+    -fx-text-fill: "#007aff";
+     -fx-padding: 5px;
+     -fx-border-insets: 5px;
+     -fx-background-insets: 5px;
+}
+
+#rightBox .text-field {
+     -fx-padding: 7 7 7 7;
+}
+
+#info .label {
+    -fx-text-fill: "#ffffff";
+    -fx-font-size: 21.0;
+}
+
+#testQ {
+    -fx-text-fill: "#ffffff";
+    -fx-font-size: 21.0;
+}
